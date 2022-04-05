@@ -1,0 +1,19 @@
+[package]
+name = "rustimghash"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+img_hash = "3.0"
+image = "0.23.14"
+data-encoding = "2.3.2"
+hex = "0.4.3"
+base64 = "0.13.0"
+hex-literal = "0.3.4"
+sha2 = "0.10.2"
+crypto = "0.3.0"
+digest = "0.10.3"
+ring = "0.16.20"
+error-chain = "0.12.4"
